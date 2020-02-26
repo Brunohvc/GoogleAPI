@@ -1,5 +1,4 @@
 ## Tecnologias
-Instale o Adonis em sua máquina via npm
 ```bash
 1. Angular
 2. NodeJS
