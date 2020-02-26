@@ -39,7 +39,8 @@ Acesse o Link
 ```
 
 ```bash
-3. Clique o ícone do cors na parte superior do navegador, irá abrir um moda, em seguida clique em cima do 'C', ele deverá ficar colorido
+3. Clique o ícone do cors na parte superior do navegador, irá abrir um modal, 
+em seguida clique em cima do 'C', ele deverá ficar colorido
 ```
 
 ```bash
@@ -47,7 +48,8 @@ Acesse o Link
 ```
 
 ```bash
-OBS. Após finalizar a execução do projeto desative o CORS, o mesmo pode fazer alguns serviços como youtube não funcionar.
+OBS. Após finalizar a execução do projeto desative o CORS, o mesmo pode fazer alguns serviços 
+como youtube não funcionar.
 ```
 
 ---
