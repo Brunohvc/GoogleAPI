@@ -36,7 +36,7 @@ Para Iniciar o Servidor basta executar o comando
 
 ## Habilitando Cors
 
-Não foi configurado o cors do projeto, portando é necessária a instalação de um pluin para roda-lo,
+Não foi configurado o cors do projeto, portando é necessária a instalação de um plugin para roda-lo,
 As seguintes instruções são para o Google Chrome
 
 Acesse o Link
@@ -49,7 +49,7 @@ Acesse o Link
 ```
 
 ```bash
-3. Clique o ícone do cors na parte superior do navegador, irá abrir um modal, 
+3. Clique no ícone do cors na parte superior do navegador, irá abrir um modal, 
 em seguida clique em cima do 'C', ele deverá ficar colorido
 ```
 
