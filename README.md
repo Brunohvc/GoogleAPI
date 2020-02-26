@@ -1,12 +1,26 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+## Iniciando Servidor
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Acesse a pasta serve pelo cmd
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Instale o Adonis em sua máquina via npm
+```bash
+1. $ npm i -g @adonisjs/cli
+```
 
----
+Execute o seguinte comando para instalar as dependencias do projeto
+```bash
+1. $ npm i
+```
 
-## Edit a file
+É necessário Gerar o Banco de Dados, para isso execute o seguinte comando, caso ocorra um erro verifique a pasta database existe o arquivo 'lyncas_test', se existir exclúa caso queira gerar novamente e rode novamente o comando.
+```bash
+1. $ adonis migration:run
+```
+
+Para Iniciar o Servidor basta executar o comando
+```bash
+1. $ adonis serve --dev
+```
 
 You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
