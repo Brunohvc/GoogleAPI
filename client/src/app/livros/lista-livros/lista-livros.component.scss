@@ -1,0 +1,40 @@
+.livro{
+    margin-bottom: 10px;
+}
+
+.imgLivro{
+    width: 128px;
+    height: 164px;
+}
+
+.buscar{
+    display: block;
+}
+
+.buscar-group{
+    margin-left: 1rem;
+}
+
+.mostraLivros{
+    margin-top: 15px;
+}
+
+.favorita{
+    text-align: center;
+}
+
+.star{
+    font-size: 40px;
+}
+
+.star:hover{
+    color: #e1e102;
+    cursor: pointer;
+}
+.star.favorito{
+    color: #e1e102;
+}
+
+.anterior{
+    margin-left: auto;
+}

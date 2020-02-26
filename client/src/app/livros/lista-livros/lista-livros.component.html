@@ -1,0 +1,48 @@
+<div class="col-sm-12">
+    <div class="row">
+        <div class="col-sm-4">
+            <label><b>Título</b></label>
+            <input type="text" placeholder="Título" [(ngModel)]="titulo" class="form-control" required
+                [disabled]="loading['request']">
+        </div>
+        <div class="buscar-group col-sm-2">
+            <label>&nbsp;</label>
+            <button class="btn btn-info buscar" (click)="buscar()" [disabled]="verificaDisabled">{{textButton()}}</button>
+        </div>
+        <div class="buscar-group col-sm-4">
+            <div class="row">
+                <div class="col-sm-5">
+                    <label>&nbsp;</label>
+                    <button class="btn btn-primary buscar anterior" (click)="anterior()"
+                        [disabled]="verificaExisteAnterior || loading['request']">Anterior</button>
+                </div>
+                <div class="col-sm-2">
+                    <label>Página</label>
+                    <input type="text" [ngModel]="(pagina + 1)" class="form-control" disabled>
+                </div>
+                <div class="col-sm-5">
+                    <label>&nbsp;</label>
+                    <button class="btn btn-primary buscar" (click)="proximo()"
+                        [disabled]="verificaExisteProxima || loading['request'] || !livros">Próximo</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row mostraLivros" *ngIf="livros">
+    <div *ngFor="let livro of livros; let i = index;" class="col-sm-6 livro">
+        <div class="row">
+            <div class="col-sm-3">
+                <img *ngIf="livro.thumbnail" [src]="livro.thumbnail" class="imgLivro" />
+                <img *ngIf="!livro.thumbnail" src="../../../assets/images/img-not-found.png" class="imgLivro" />
+            </div>
+            <div class="col-sm-7">
+                {{livro.title}}
+            </div>
+            <div class="col-sm-2 favorita" (click)="favorita(livro, i)">
+                <span class="material-icons star" [ngClass]="livro.favorito ? 'favorito' : ''">star</span>
+            </div>
+        </div>
+    </div>
+</div>
