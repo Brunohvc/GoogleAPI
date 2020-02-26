@@ -1,3 +1,14 @@
+## Tecnologias
+Instale o Adonis em sua máquina via npm
+```bash
+1. Angular
+2. NodeJS
+3. Adonis
+4. SQLite
+4. Google Books
+5. Google Authentication
+```
+
 ## Iniciando Servidor
 
 Acesse a pasta serve pelo cmd
@@ -12,7 +23,7 @@ Execute o seguinte comando para instalar as dependencias do projeto
 2. $ npm i
 ```
 
-É necessário Gerar o Banco de Dados, para isso execute o seguinte comando, caso ocorra um erro verifique na pasta database se existe o arquivo 'lyncas_test', se existir exclua caso queira gerar novamente e rode novamente o comando.
+É necessário Gerar o Banco de Dados, para isso execute o seguinte comando, caso ocorra um erro verifique na pasta database se existe o arquivo 'lyncas_test', se existir exclua caso queira gerar novamente o banco de dados e rode novamente o comando.
 ```bash
 3. $ adonis migration:run
 ```
