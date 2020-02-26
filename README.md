@@ -4,8 +4,8 @@
 2. NodeJS
 3. Adonis
 4. SQLite
-4. Google Books
-5. Google Authentication
+5. Google Books
+6. Google Authentication
 ```
 
 ## Iniciando Servidor
